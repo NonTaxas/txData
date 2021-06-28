@@ -1,0 +1,89 @@
+{
+
+  "global": {
+
+    "serverName": "Serveris",
+
+    "language": "lt"
+
+  },
+
+  "logger": {},
+
+  "monitor": {
+
+    "restarterSchedule": [
+
+      "20:45"
+
+    ],
+
+    "restarterScheduleWarnings": [
+
+      30,
+
+      15,
+
+      10,
+
+      5,
+
+      4,
+
+      3,
+
+      2,
+
+      1
+
+    ],
+
+    "disableChatWarnings": false
+
+  },
+
+  "statsCollector": {},
+
+  "playerController": {
+
+    "onJoinCheckBan": true,
+
+    "onJoinCheckWhitelist": false,
+
+    "minSessionTime": 15,
+
+    "whitelistRejectionMessage": "Jus nesate whitelistintas šiame serveryje. Prašome ieškoti pagalbos mūsų discord serveryje: discord.gg.\nYour ID: <id>",
+
+    "wipePendingWLOnStart": true
+
+  },
+
+  "authenticator": {},
+
+  "webServer": {},
+
+  "discordBot": {
+
+    "enabled": false,
+
+    "token": "",
+
+    "announceChannel": "",
+
+    "prefix": "/",
+
+    "statusMessage": "**IP:** `Connect serverio:ip`\n**Žaidėjei:** <players>\n**Veikimo Laikas:** <uptime>"
+
+  },
+
+  "fxRunner": {
+
+    "serverDataPath": "/home/cfx-server-data",
+
+    "cfgPath": "/home/server.cfg",
+
+    "autostart": true
+
+  }
+
+}
